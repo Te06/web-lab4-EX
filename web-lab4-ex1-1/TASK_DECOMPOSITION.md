@@ -18,7 +18,7 @@
 
 ### Task 3: Layout Stability
 - [x] Create a dimension-matched Skeleton layout.
-- [ ] Verify layout stability (CLS = 0).
+- [x] Verify layout stability (CLS = 0).
 
 ### Task 4: Accessibility
 - [x] Add `aria-busy="true"`.
