@@ -1,0 +1,59 @@
+
+.people-frame {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) 2fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  padding: 24px;
+  background: #f1f5f9;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.link,
+.active-link {
+  display: block;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #111827;
+}
+
+.link:hover {
+  background: #e2e8f0;
+}
+
+.active-link {
+  background: #bfdbfe;
+  font-weight: bold;
+}
+
+.content-area {
+  padding: 32px;
+}
+
+.person-details {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+}
+
+.person-details dt {
+  font-weight: bold;
+}
+
+.person-details dd {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .people-frame {
+    grid-template-columns: 1fr;
+  }
+}
